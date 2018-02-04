@@ -18,7 +18,7 @@ matplotlib 			| 2.1.0			  	|
 numpy 					| 1.13.3 				|
 pandas 				| 0.22.0   			| 
 
-**Oanda-first**<br>
+## Oanda-first<br>
 This folder contains a means to look at past FOREX prices, and compare them.
 **Functions in OHLC.py**  
 GrabToken() will grab users API token from res folder.  
@@ -54,10 +54,10 @@ NormCur(BCn, BCs)
 Now use matplotlib.pyplot to plot simple line graphs to see if you plot the same data as Oanda shows in their downloadable app.  
 This will show you are connecting with their API correctly.  
 
-**Oanda-Event**<br>  
+## Oanda-Event**<br>  
 This folder contains event driven software to stream live tick feed data.  
-There is plently learned from the previous folder (Oanda-first) which is planned to be implemented here found in Backtest folder.  
-**Functions in Backtest folder**  
+There has been plenty learned from (Oanda-first) which is planned to be implemented here found in Backtest folder.  
+**Backtest folder**  
 **Functions downloadOHLC.py**  
 GrabHistoryPrice() requires 4 parameters to initialize with one optional parameter.  
 Returns one HTTP response.  
@@ -67,4 +67,6 @@ GrabHistoryPrice(domain, token, instru, gran, count=500)
 ```
 
 **Please note**
+A live tick stream has been developed based on [Quant Start](https://www.quantstart.com/articles/Forex-Trading-Diary-1-Automated-Forex-Trading-with-the-OANDA-API) tutorial on an event driven software to control an automatted trading platform. **WARNING** FOR EDUCATIONAL PURPOSES ONLY.
+
 This code will require folder called res in parent directory (this folder). The res folder will need to have a ids.json file for ID and an oanda_api_key.json file for API token issued by Oanda (example json files in res folder). Token and ID Key can be obtained for free from Oanda.
