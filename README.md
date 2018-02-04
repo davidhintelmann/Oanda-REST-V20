@@ -67,4 +67,4 @@ GrabHistoryPrice(domain, token, instru, gran, count=500)
 ```
 
 **Please note**
-This code will require folder called res in parent directory (parent to this folder). The res folder will need to have a ids.json file for ID and an oanda_api_key.json file for API token issued by Oanda (example json files in res folder). Token and ID Key can be obtained for free from Oanda.
+This code will require folder called res in parent directory (this folder). The res folder will need to have a ids.json file for ID and an oanda_api_key.json file for API token issued by Oanda (example json files in res folder). Token and ID Key can be obtained for free from Oanda.
