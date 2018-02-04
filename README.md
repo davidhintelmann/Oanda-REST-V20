@@ -54,7 +54,7 @@ NormCur(BCn, BCs)
 Now use matplotlib.pyplot to plot simple line graphs to see if you plot the same data as Oanda shows in their downloadable app.  
 This will show you are connecting with their API correctly.  
 
-## Oanda-Event**<br>  
+## Oanda-Event<br>  
 This folder contains event driven software to stream live tick feed data.  
 There has been plenty learned from (Oanda-first) which is planned to be implemented here found in Backtest folder.  
 **Backtest folder**  
