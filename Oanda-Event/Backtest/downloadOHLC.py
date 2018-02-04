@@ -42,7 +42,7 @@ class GrabHistPrice(object):
 
             JSONname = (str(self.gran)+','+str(self.current_time)+
                         ','+'count='+str(self.count)+'.json')
-            pathing = ('/Users/DavidH/Documents/GitHub/Oanda-Event/Price-History/'+
+            pathing = ('/Users/DavidH/Documents/GitHub/Oanda-REST-V20/Oanda-Event/Price-History/'+
                         self.instrum+'/'+self.instru)
             pathlib.Path(pathing).mkdir(parents=True, exist_ok=True)
             directory = os.path.join(pathing,JSONname)

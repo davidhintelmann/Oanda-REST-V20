@@ -1,7 +1,7 @@
 import json, os
 from pathlib import Path
 
-token_path = Path(__file__).parents[1]
+token_path = Path(__file__).parents[2]
 id_path = os.path.join(token_path,'res/ids.json')
 token_path = os.path.join(token_path,'res/oanda_api_key.json')
 
