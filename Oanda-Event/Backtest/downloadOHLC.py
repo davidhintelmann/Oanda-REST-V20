@@ -82,4 +82,4 @@ class GrabHistPrice(object):
 token = GrabToken()
 
 EUR_OHLC = GrabHistPrice(API_DOMAIN,token,'EUR_USD','S5')
-EUR_OHLC.downloadAll()
+EUR_OHLC.downloadSingle()
