@@ -19,6 +19,7 @@ pandas 				| 0.22.0   			|
 
 ## Oanda-first<br>
 This folder contains a means to look at past FOREX prices, and compare them.  
+
 ###Functions in OHLC.py 
 GrabToken() will grab users API token from res folder.  
 Returns token as string.  
@@ -80,7 +81,8 @@ Returns one HTTP response.
 ```
 GrabHistoryPrice(domain, token, instru, gran, count=500)
 ```
-#####Methods for this class
+
+##### Methods for this class
 requestHistStream() is a method that begins an http connection to the endpoint /v3/instruments/ from Oanda's API. This method is never called directly. All other methods in this class build of this one.
 
 ```
