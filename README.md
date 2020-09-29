@@ -20,7 +20,7 @@ pandas 				| 0.22.0   			|
 ## Oanda-first<br>
 This folder contains a means to look at past FOREX prices, and compare them.  
 
-###Functions in OHLC.py 
+### Functions in OHLC.py 
 GrabToken() will grab users API token from res folder.  
 Returns token as string.  
 
@@ -107,9 +107,9 @@ This is the python file one would edit when switching from demo mode (monopoly m
 This file has one class to plot OHLC data to visually inspect the data.
 plotOHLC() has two arugments, the first one is the primary currency and the second is the granularity of the data (ie 5 second candles, 10 minute, 1 days, etc).
 
-`
+```
 plotOHLC(primarycur, gran=None)
-`
+```
 
 ## <br>
 **Please note**
